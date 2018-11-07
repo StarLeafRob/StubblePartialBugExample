@@ -11,7 +11,7 @@ Base template:
 
 Body Template:
 ```mustache
-<a href="{{Url}}" target="_blank">
+<a href="{{Url}}">
     My Link
 </a>
 ```
@@ -26,7 +26,7 @@ Data:
 Expected output:
 ```html
 <div>
-    <a href="https://github.com" target="_blank">
+    <a href="https://github.com">
         My Link
     </a>
 </div>
@@ -35,7 +35,7 @@ Expected output:
 Actual output:
 ```html
 <div>
-    <a href="https://github.com    " target="_blank">
+    <a href="https://github.com    ">
         My Link
     </a>
 </div>

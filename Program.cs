@@ -7,7 +7,7 @@ namespace StubblePartialBug
     class Program
     {
         static string BaseTemplate = "<div>\n    {{>Body}}\n</div>";
-        static string BodyTemplate = "<a href=\"{{Url}}\" target=\"_blank\">\n    My Link\n</a>\n";
+        static string BodyTemplate = "<a href=\"{{Url}}\">\n    My Link\n</a>\n";
 
         static void Main(string[] args)
         {
