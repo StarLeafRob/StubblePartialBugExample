@@ -1,5 +1,5 @@
 Program demonstrating a bug when rendering partial templates.
-When rendering an indented partial template, additional whitespace gets appended to the end of {{tokens}}
+When rendering an indented partial template, additional whitespace gets appended to the end of {{variable}} tags
 that appear in the partial template
 
 Base template:
